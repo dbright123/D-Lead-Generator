@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <obj>w32api/crt2.o</obj>
+  <obj>head/guihead.o</obj>
+  <obj>head/head.o</obj>
+  <lib>w32api/libmingw32.a</lib>
+  <lib>w32api/libgcc.a</lib>
+  <lib>w32api/libmsvcrt.a</lib>
+  <lib>w32api/libkernel32.a</lib>
+  <lib>w32api/libuser32.a</lib>
+  <lib>w32api/libadvapi32.a</lib>
+  <lib>w32api/libshell32.a</lib>
+  <jar>C:\Users\Omage Micheal\Documents\D Lead Generator\dist\D_Lead_Generator.jar</jar>
+  <outfile>C:\Users\Omage Micheal\Documents\D Lead Generator\dist\DLead Generator.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Omage Micheal\Documents\personnal projects\db_logo.ico</icon>
+  <singleInstance>
+    <mutexName>Only one instance of the application is allowed to run</mutexName>
+    <windowTitle>Issues on ground</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>LG.mainF</mainClass>
+    <cp>lib/dom4j-1.6.1.jar</cp>
+    <cp>lib/poi-3.8-beta1.jar</cp>
+    <cp>lib/poi-ooxml-3.8-beta1.jar</cp>
+    <cp>lib/poi-ooxml-schemas-3.8-beta1.jar</cp>
+    <cp>lib/stax-api-1.0.1.jar</cp>
+    <cp>lib/xml-apis-1.0.b2.jar</cp>
+    <cp>lib/xmlbeans-2.3.0.jar</cp>
+  </classPath>
+  <jre>
+    <path>jre/jre1.8.0_271</path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <messages>
+    <startupErr>An error occurred while starting the application.</startupErr>
+    <bundledJreErr>This application was configured to use a bundled Java Runtime Environment but the runtime is missing or corrupted.</bundledJreErr>
+    <jreVersionErr>This application requires a Java Runtime Environment</jreVersionErr>
+    <launcherErr>The registry refers to a nonexistent Java Runtime Environment installation or the runtime is corrupted.</launcherErr>
+    <instanceAlreadyExistsMsg>An application instance is already running.</instanceAlreadyExistsMsg>
+  </messages>
+</launch4jConfig>
